@@ -1,124 +1,186 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="440" viewBox="0 0 720 440" fill="none">
-  <defs>
-    <linearGradient id="bg" x1="45" y1="20" x2="680" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#10172D"/>
-      <stop offset="0.52" stop-color="#151A36"/>
-      <stop offset="1" stop-color="#30165B"/>
-    </linearGradient>
-    <linearGradient id="edge" x1="85" y1="45" x2="630" y2="400" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9"/>
-      <stop offset="0.5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#EC4899"/>
-    </linearGradient>
-    <linearGradient id="lanyard" x1="290" y1="0" x2="430" y2="140" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#67E8F9"/>
-      <stop offset="1" stop-color="#7C3AED"/>
-    </linearGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#FFFFFF" stop-opacity=".17"/>
-      <stop offset=".45" stop-color="#FFFFFF" stop-opacity=".02"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="shadow" x="0" y="0" width="720" height="460" filterUnits="userSpaceOnUse">
-      <feGaussianBlur stdDeviation="12"/>
-    </filter>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <clipPath id="cardClip">
-      <rect x="95" y="119" width="530" height="285" rx="24"/>
-    </clipPath>
-  </defs>
+<!-- ===================================================== -->
+<!-- MUHAMMAD FAIZAN UD DIN | DEVELOPER PROFILE README -->
+<!-- ===================================================== -->
 
-  <rect width="720" height="440" rx="26" fill="#090D19"/>
-  <circle cx="110" cy="100" r="90" fill="#6D28D9" opacity=".12"/>
-  <circle cx="625" cy="350" r="120" fill="#06B6D4" opacity=".10"/>
+<div align="center">
 
-  <g opacity=".17" stroke="#67E8F9" stroke-width=".8">
-    <path d="M0 70H720M0 140H720M0 210H720M0 280H720M0 350H720"/>
-    <path d="M70 0V440M140 0V440M210 0V440M280 0V440M350 0V440M420 0V440M490 0V440M560 0V440M630 0V440"/>
-  </g>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:080B18,50:182A52,100:7928CA&text=Muhammad%20Faizan%20Ud%20Din&fontSize=38&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=FULL%20STACK%20DEVELOPER%20%7C%20MERN%20STACK%20SPECIALIST&descSize=13&descAlignY=59" width="100%" alt="Muhammad Faizan Ud Din developer banner"/>
 
-  <!-- Lanyard -->
-  <path d="M286 -20L319 116Q360 142 401 116L434 -20" stroke="#000000" stroke-opacity=".35" stroke-width="28" stroke-linecap="round" fill="none"/>
-  <path d="M286 -20L319 116Q360 142 401 116L434 -20" stroke="url(#lanyard)" stroke-width="20" stroke-linecap="round" fill="none"/>
-  <path d="M295 -15L327 107Q360 126 393 107L425 -15" stroke="#FFFFFF" stroke-opacity=".25" stroke-width="2" fill="none"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2800&pause=900&color=67E8F9&center=true&vCenter=true&width=750&height=55&lines=FULL+STACK+DEVELOPER;MERN+STACK+SPECIALIST;BUILDING+HYPERNOVA+AI;CREATING+FIZORA+LAB;ENGINEERING+IDEAS+INTO+REALITY" alt="Animated developer titles"/>
 
-  <!-- Metal clip -->
-  <rect x="339" y="91" width="42" height="48" rx="9" fill="#30394D" stroke="#9CA3AF" stroke-width="2"/>
-  <rect x="348" y="99" width="24" height="29" rx="5" fill="#0F172A" stroke="#67E8F9" stroke-width="2"/>
-  <circle cx="360" cy="111" r="4" fill="#67E8F9"/>
+  <br/>
 
-  <!-- Shadow and card -->
-  <rect x="115" y="135" width="530" height="285" rx="24" fill="#7C3AED" opacity=".25" filter="url(#shadow)"/>
-  <g>
-    <rect x="95" y="119" width="530" height="285" rx="24" fill="url(#bg)" stroke="url(#edge)" stroke-width="2.5"/>
-    <g clip-path="url(#cardClip)">
-      <rect x="95" y="119" width="530" height="285" fill="url(#shine)"/>
-      <path d="M445 119H625V404H355Z" fill="#8B5CF6" opacity=".07"/>
-      <path d="M540 119H625V250L440 404H355Z" fill="#67E8F9" opacity=".05"/>
-      <circle cx="585" cy="170" r="80" stroke="#67E8F9" stroke-opacity=".15" stroke-width="1.5"/>
-      <circle cx="585" cy="170" r="60" stroke="#A78BFA" stroke-opacity=".17" stroke-width="1.5"/>
-    </g>
+  <a href="https://github.com/Fayzen-exe">
+    <img src="https://img.shields.io/badge/GITHUB-Fayzen--exe-111827?style=for-the-badge&logo=github&logoColor=67E8F9" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/fayzen/">
+    <img src="https://img.shields.io/badge/LINKEDIN-Connect-172554?style=for-the-badge&logo=linkedin&logoColor=67E8F9" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:numlfaizan@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-Contact-312E81?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
+  </a>
 
-    <!-- Header -->
-    <rect x="118" y="139" width="484" height="36" rx="8" fill="#FFFFFF" fill-opacity=".055"/>
-    <circle cx="136" cy="157" r="4" fill="#67E8F9" filter="url(#glow)"/>
-    <text x="149" y="161" fill="#B9C8E9" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2">DIGITAL DEVELOPER ID</text>
-    <text x="580" y="161" text-anchor="end" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1.5">01 / DEV</text>
+  <br/><br/>
 
-    <!-- Profile avatar -->
-    <rect x="120" y="192" width="128" height="150" rx="15" fill="#0C1428" stroke="#67E8F9" stroke-opacity=".65" stroke-width="1.5"/>
-    <rect x="129" y="201" width="110" height="132" rx="10" fill="#17213D"/>
-    <circle cx="184" cy="244" r="23" fill="#67E8F9" fill-opacity=".16" stroke="#67E8F9" stroke-opacity=".65" stroke-width="1.5"/>
-    <text x="184" y="253" text-anchor="middle" fill="#E0F2FE" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">F</text>
-    <path d="M148 303Q148 272 184 272Q220 272 220 303" stroke="#A78BFA" stroke-width="2" fill="#8B5CF6" fill-opacity=".18"/>
-    <path d="M138 317H230" stroke="#67E8F9" stroke-opacity=".45"/>
-    <text x="184" y="329" text-anchor="middle" fill="#B9C8E9" font-family="Arial, Helvetica, sans-serif" font-size="8" letter-spacing="1.5">PROFILE ID</text>
+  <img src="https://komarev.com/ghpvc/?username=Fayzen-exe&label=PROFILE%20VISITORS&color=7C3AED&style=flat-square" alt="Profile visitor counter"/>
 
-    <!-- Identity -->
-    <text x="269" y="207" fill="#67E8F9" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2">NAME / IDENTITY</text>
-    <text x="269" y="232" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">MUHAMMAD</text>
-    <text x="269" y="256" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">FAIZAN UD DIN</text>
-    <text x="269" y="280" fill="#C4B5FD" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.6">FULL STACK DEVELOPER</text>
-    <text x="269" y="297" fill="#A5B4CF" font-family="Arial, Helvetica, sans-serif" font-size="11">MERN STACK SPECIALIST</text>
+</div>
 
-    <rect x="269" y="311" width="145" height="25" rx="6" fill="#67E8F9" fill-opacity=".10" stroke="#67E8F9" stroke-opacity=".45"/>
-    <text x="341.5" y="327" text-anchor="middle" fill="#A5F3FC" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1">WEB ENGINEERING</text>
+---
 
-    <!-- QR-inspired decorative grid -->
-    <g transform="translate(547 259)" fill="#A78BFA">
-      <rect width="10" height="10" rx="1"/>
-      <rect x="13" width="10" height="10" rx="1"/>
-      <rect x="26" width="10" height="10" rx="1"/>
-      <rect y="13" width="10" height="10" rx="1"/>
-      <rect x="26" y="13" width="10" height="10" rx="1"/>
-      <rect y="26" width="10" height="10" rx="1"/>
-      <rect x="13" y="26" width="10" height="10" rx="1"/>
-      <rect x="26" y="26" width="10" height="10" rx="1"/>
-    </g>
+<!-- ============ DIGITAL ID CARD ============ -->
 
-    <!-- Project footer -->
-    <path d="M120 355H600" stroke="#FFFFFF" stroke-opacity=".12"/>
-    <text x="122" y="377" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.4">CURRENT BUILDS</text>
-    <rect x="264" y="362" width="112" height="25" rx="6" fill="#7C3AED" fill-opacity=".2" stroke="#A78BFA" stroke-opacity=".6"/>
-    <text x="320" y="378" text-anchor="middle" fill="#DDD6FE" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">HYPERNOVA AI</text>
-    <rect x="385" y="362" width="95" height="25" rx="6" fill="#0891B2" fill-opacity=".17" stroke="#67E8F9" stroke-opacity=".6"/>
-    <text x="432.5" y="378" text-anchor="middle" fill="#A5F3FC" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700">FIZORA LAB</text>
-    <circle cx="580" cy="374" r="5" fill="#34D399">
-      <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+<div align="center">
 
-  <!-- Animated neon scan -->
-  <rect x="96" y="120" width="528" height="3" rx="1.5" fill="#67E8F9" opacity=".8" filter="url(#glow)">
-    <animate attributeName="y" values="121;400;121" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".8;.15;.8" dur="5s" repeatCount="indefinite"/>
-  </rect>
+  <h2>DEVELOPER IDENTITY</h2>
 
-  <text x="360" y="428" text-anchor="middle" fill="#7C8AA8" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="3">DESIGNED TO BUILD · ENGINEERED TO CREATE</text>
-</svg>
+  <a href="https://github.com/Fayzen-exe">
+    <img src="./assets/id-card.svg" width="600" alt="3D-inspired animated developer ID card for Muhammad Faizan Ud Din"/>
+  </a>
+
+  <p><strong>IDENTITY VERIFIED · IDEAS IN PROGRESS · BUILDING THE FUTURE</strong></p>
+
+</div>
+
+---
+
+## About Me
+
+I'm **Muhammad Faizan Ud Din**, a Full Stack Developer specializing in the MERN stack. I enjoy transforming ideas into practical digital products, building responsive user interfaces, developing backend functionality, and exploring AI-powered applications.
+
+My focus is on creating modern web experiences that combine thoughtful design, reliable functionality, and clean development practices.
+
+- **Role:** Full Stack Developer
+- **Specialization:** MERN Stack Development
+- **Current Projects:** HyperNova AI and Fizora Lab
+- **Interests:** Web Applications, Artificial Intelligence, UI/UX, and Product Development
+- **Goal:** Build useful, scalable, and user-focused digital products.
+
+---
+
+## Technology Stack
+
+<div align="center">
+
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,mongodb,git,github,vscode,postman&perline=6&theme=dark" alt="Technology stack icons"/>
+
+</div>
+
+<table align="center">
+  <tr>
+    <td align="center" width="180"><strong>Frontend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"/>
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Backend</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+      <img src="https://img.shields.io/badge/Express.js-FFFFFF?style=flat-square&logo=express&logoColor=black" alt="Express.js"/>
+      <img src="https://img.shields.io/badge/REST%20APIs-7C3AED?style=flat-square" alt="REST APIs"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Database</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+      <img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Tools</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+      <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+      <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman"/>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://img.shields.io/badge/PROJECT%2001-AI%20APPLICATION-7C3AED?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Project 01"/>
+        <h3>HyperNova AI</h3>
+      </div>
+      An AI-focused web project designed to explore intelligent digital experiences and make AI-powered interactions more accessible.
+      <br/><br/>
+      <strong>Focus Areas</strong>
+      <br/>
+      AI integration · Web development · User experience
+      <br/><br/>
+      <a href="https://github.com/Fayzen-exe?tab=repositories">Explore Repositories</a>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <img src="https://img.shields.io/badge/PROJECT%2002-WEB%20DEVELOPMENT-0891B2?style=for-the-badge&logo=react&logoColor=white" alt="Project 02"/>
+        <h3>Fizora Lab</h3>
+      </div>
+      A web development project focused on modern interfaces, structured implementation, and practical digital solutions.
+      <br/><br/>
+      <strong>Focus Areas</strong>
+      <br/>
+      Full-stack development · UI design · Web applications
+      <br/><br/>
+      <a href="https://github.com/Fayzen-exe?tab=repositories">Explore Repositories</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Fayzen-exe&show_icons=true&hide_border=true&bg_color=0D1117&title_color=67E8F9&icon_color=A78BFA&text_color=C9D1D9" alt="GitHub statistics"/>
+
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fayzen-exe&layout=compact&hide_border=true&bg_color=0D1117&title_color=67E8F9&text_color=C9D1D9" alt="Most used programming languages"/>
+
+  <br/><br/>
+
+  <img src="https://streak-stats.demolab.com/?user=Fayzen-exe&hide_border=true&background=0D1117&ring=67E8F9&fire=A78BFA&currStreakLabel=67E8F9&sideLabels=C9D1D9&dates=8B949E" alt="GitHub contribution streak"/>
+
+  <br/><br/>
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Fayzen-exe&bg_color=0D1117&color=67E8F9&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" width="95%" alt="GitHub contribution activity graph"/>
+
+</div>
+
+---
+
+## Connect With Me
+
+<div align="center">
+
+  <a href="https://github.com/Fayzen-exe">
+    <img src="https://img.shields.io/badge/GitHub-Explore%20My%20Work-111827?style=for-the-badge&logo=github&logoColor=67E8F9" alt="GitHub profile"/>
+  </a>
+
+  <a href="https://www.linkedin.com/in/fayzen/">
+    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-172554?style=for-the-badge&logo=linkedin&logoColor=67E8F9" alt="LinkedIn profile"/>
+  </a>
+
+  <a href="mailto:numlfaizan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-numlfaizan%40gmail.com-312E81?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email contact"/>
+  </a>
+
+  <br/><br/>
+
+  <strong>Building with purpose. Developing with passion. Creating with technology.</strong>
+
+  <br/><br/>
+
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:7928CA,50:182A52,100:080B18" width="100%" alt="Animated profile footer"/>
+
+</div>
