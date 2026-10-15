@@ -176,7 +176,6 @@ My focus is on creating modern web experiences that combine thoughtful design, r
   </a>
 
   <br/><br/>
-
   <strong>Building with purpose. Developing with passion. Creating with technology.</strong>
 
   <br/><br/>
